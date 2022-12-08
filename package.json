@@ -1,0 +1,26 @@
+{
+  "name": "structural_testing",
+  "version": "1.0.0",
+  "description": "SE4452-Assignment3",
+  "main": "purchaseOrder.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalqaraw/Structural_Testing.git"
+  },
+  "author": "Nadin Alqarawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nalqaraw/Structural_Testing/issues"
+  },
+  "homepage": "https://github.com/nalqaraw/Structural_Testing#readme",
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "sinon": "^15.0.0"
+  }
+}
